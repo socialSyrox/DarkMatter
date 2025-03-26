@@ -9,6 +9,7 @@
   /*
    * SoftX variables
    */
+  const overlay = BdApi.Webpack.Stores.PopoutWindowStore.getWindow("DISCORD_OutOfProcessOverlay");
   --background-image: url("https://i.imgur.com/7SbtKvw.png"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-blur: 12px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
   --accent: 20, 205, 224; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
